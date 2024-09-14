@@ -222,7 +222,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #ffffff;
+  --background-color: #2E2E2E;
   --heading-color: #32353a;
   --nav-color: #3a3939;
   --nav-hover-color: #e84545;
