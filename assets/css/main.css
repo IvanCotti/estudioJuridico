@@ -253,7 +253,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: beige;
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
@@ -474,7 +474,6 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -2721,7 +2720,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------
 # Widgets
