@@ -635,6 +635,13 @@ h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
+.scroll-top.wasap {
+  background-color: transparent;
+  bottom: 70px !important;
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
 
 .scroll-top i {
   font-size: 24px;
@@ -642,7 +649,7 @@ h6 {
   line-height: 0;
 }
 
-.scroll-top:hover {
+.scroll-top:not(.wasap):hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   color: var(--contrast-color);
 }
@@ -1065,8 +1072,8 @@ section,
 .stats .stats-item span {
   font-size: 48px;
   display: block;
-  color: var(--default-color);
-  font-weight: 700;
+  color: var(--nav-hover-color);
+  font-family: 'Poppins';
 }
 
 .stats .stats-item p {
